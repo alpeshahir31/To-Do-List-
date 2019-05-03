@@ -1,0 +1,81 @@
+body {
+  background: #eee;
+}
+
+h3 {
+  margin-bottom: 1rem;
+}
+
+.container {
+  background: #fff;
+  max-width: 600px;
+  min-width: 600px;
+  display: table;
+  margin: 0 auto;
+  margin-top: 40px;
+  border: 1px solid #cfcbcc;
+  padding: 1.5rem;
+  border: 1px solid #cfcbcc;
+}
+
+.lead {
+  font-size: 1.25rem;
+  font-weight: 300;
+}
+
+.row+.row {
+  margin-top: 1rem;
+}
+
+.list-todo-item:focus, .list-todo-item:hover, 
+.list-completed-item:focus, .list-completed-item:hover {
+  color: #1b1e21;
+  background-color: #d6d8d9;
+  border-color: #c6c8ca;
+  /*cursor: pointer;*/
+}
+
+.list-group-item {
+  padding-right: 0;
+}
+
+.overflow-ellipsis {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.list-group-item > .btn-group-sm {
+  width: auto;
+}
+
+.item-action-edit:hover, .item-action-edit:focus, .item-action-edit:active {
+  color: #fff !important;
+  background-color: #007bff !important;
+}
+
+.item-action-delete:hover, .item-action-delete:focus, .item-action-delete:active {
+  color: #fff !important;
+  background-color: #dc3545 !important;
+}
+
+.item-action-complete:hover, .item-action-complete:focus, .item-action-complete:active {
+  color: #fff !important;
+  background-color: #28a745 !important;
+}
+
+.item-action-save:hover, .item-action-save:focus, .item-action-save:active {
+  color: #fff !important;
+  background-color: #28a745 !important;
+}
+
+.item-action-cancel:hover, .item-action-cancel:focus, .item-action-cancel:active {
+  color: #fff !important;
+  background-color: #ffc107 !important;
+}
+
+.list-todo-edit-task.form-control {
+  padding-top: 0;
+  padding-bottom: 0;
+  height: calc(1em + .75rem + 2px);
+}
